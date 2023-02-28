@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+}
+
+strong {
+    color: var(--cor2);
+}
+
+:root {
+    --cor1: #201a70;
+    --cor2: #8880f2;
+    --cor3: #3f3b70;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--cor1);
+}
+
+main {
+    max-width: 1000px;
+}
+
+.foto {
+
+}
+
+.dados {
+    
+}
+
+footer {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor2),  var(--cor3), var(--cor2), var(--cor3));
+
+    position: absolute;
+    width: 100%;
+    text-align: justify;
+}
+
+footer h1{
+    text-align: center;
+    font-size: 10px;
+    
+}
