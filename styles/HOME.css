@@ -26,9 +26,30 @@ body {
     background-color: var(--cor3);
 }
 
-main {
-    max-width: 1000px;
+nav {
+    margin: 30px;
+    position: relative;
+    
+    left: 34%;
+    transform: translate(-50% -50%);
+}
+
+nav a {
     margin: 20px;
+    background-color: var(--cor2);
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 100px;
+    height: calc(100vh - 50);
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 100px;
 }
 
 .foto img {
@@ -45,29 +66,14 @@ main {
 
 .dados {
     display: inline-block;
-    
-    background-color: var(--cor1);
     margin: 20px;
-    max-width: 400px;
     padding: 20px;
-    color: white;
+    color: black;
     font-size: 10px;
-    top: 50%;
-    left: 4%;
-
-
 }
 
 .mim {
-    
-    background-color: var(--cor1);
-    padding: 10px;
-    color: white;
-    margin: 20px;
     display: inline-block;
-
-    left: 50%;
-    top: 40%;
 }
 
 footer {
