@@ -28,35 +28,59 @@ body {
 
 main {
     max-width: 1000px;
-
+    margin: 20px;
 }
 
-.foto {
-
+.foto img {
+    
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.082);
+    display: inline-block;
+    top: 10%;
+    left: 5%;
 }
 
 .dados {
+    display: inline-block;
+    
     background-color: var(--cor1);
     margin: 20px;
     max-width: 400px;
     padding: 20px;
     color: white;
-    display: inline-block;
-    font-size: 10px
+    font-size: 10px;
+    top: 50%;
+    left: 4%;
+
+
 }
 
 .mim {
+    
+    background-color: var(--cor1);
+    padding: 10px;
+    color: white;
+    margin: 20px;
+    display: inline-block;
 
+    left: 50%;
+    top: 40%;
 }
 
 footer {
     background-image: linear-gradient(to right, var(--cor3), var(--cor2),  var(--cor3), var(--cor2), var(--cor3));
-
-    position: absolute;
     width: 100%;
     text-align: justify;
     padding: 10px;
-    position: relative;
+
+}
+
+footer li {
+    margin: 2px;
+    list-style-type: none;
     
 }
 
